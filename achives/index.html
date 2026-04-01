@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="/Tela de Login/assents/sytles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="child-container">
+            <div class="form">
+                <h1>Entrar</h1>
+                <p>Seja bem-vindo novamente.</p>
+            </div>
+            
+            <form action="#" method="post" class="user-container" id="myform">
+                    <!-- Usuario -->
+                    <label for="user"></label>
+                    <input type="text" name="user" id="user" placeholder="E-mail ou Telefone" required>
+
+                    <!-- Senha -->
+                    <label for="password"></label>
+                    <input type="password" name="password" id="password" placeholder="Senha" required>
+                    <i class="bi bi-eye"></i>
+                    <p><a href="#">Esqueci minha senha</a></p>
+
+                    <!-- Botões -->
+                    <div class="button-container">   
+                        <button type="submit" class="button" id="buttons">
+                            Sign in
+                        </button>
+                        <div class="child-button">
+                            or
+                        </div>
+                        <button class="button" id="apple"><img src="assents/img/logotipo-da-apple.png">
+                            Entrar com a Apple
+                        </button>
+                    </div>
+                </form>
+
+
+            <p id="cad-new">Novo por aqui? <a href="#">Cadastre-se Agora</a></p>        
+        </div>
+    </div>
+
+    <script src="/Tela de Login/assents/js/script.js"></script>
+    
+</body>
+</html>
