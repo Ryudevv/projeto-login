@@ -22,7 +22,10 @@ body{
 
 .container{
     height: 100vh;
-    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .child-container{
@@ -33,9 +36,6 @@ body{
     position: absolute;
     width: 350px;
     height: 430px;
-    left: 50%;
-    top:50%;
-    transform: translate(-50%, -50%);
 }
 
 .form h1{
